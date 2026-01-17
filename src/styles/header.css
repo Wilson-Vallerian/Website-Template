@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  height: 4rem;
+  background-color: var(--bg-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 1rem 0 1rem;
+}
+
+.logo-wrapper p {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+  max-height: 4rem;
+  max-width: 4rem;
+  object-fit: contain;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 1rem 0 1rem;
+}
+
+.nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.nav li {
+  font-size: 1.2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+.nav a:hover,
+.nav a.active {
+  color: var(--color-primary);
+  text-decoration: underline;
+}

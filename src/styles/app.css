@@ -1,8 +1,13 @@
-.App {
+.app {
   align-items: center;
   text-align: center;
 }
 
-p {
-  color: var(--color-primary);
+.main {
+  margin: 1rem;
+}
+
+.error-page {
+  margin: 1rem;
+  text-align: center;
 }
