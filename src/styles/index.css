@@ -18,6 +18,9 @@ body {
   --bg-secondary: #e5e7eb;
   --bg-trinary: #6a7282;
 
+  --bg-transparent-primary: #rgba(255, 255, 255, 0.25);
+  --bg-transparent-secondary: #6a728261;
+
   --text-primary: #111827;
   --text-secondary: #4b5563;
 

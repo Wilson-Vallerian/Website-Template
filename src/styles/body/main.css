@@ -1,0 +1,86 @@
+.hero {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  gap: 2rem;
+
+  background-image: url("../../../public/hero-machine.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.transparent-layer {
+  display: flex;
+  padding: 1.5rem;
+  border: 1px solid var(--bg-transparent-primary);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+
+.container3D {
+  width: 50vh;
+  height: 50vh;
+  border-radius: 2rem;
+  background: var(--bg-transparent-secondary);
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.hero-text h1 {
+  color: #f5f5f5;
+}
+
+.hero-text h3 {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: lighter;
+}
+
+@media (max-width: 786px) {
+  .hero {
+    flex-direction: column;
+    gap: 2rem;
+    height: 106vh;
+    position: relative;
+  }
+  .transparent-layer {
+    inset: 0;
+    flex-direction: column;
+    position: absolute;
+  }
+  .image-container {
+    justify-content: center;
+  }
+  .container3D {
+    width: 50vh;
+    max-width: 50vh;
+    height: 50vh;
+  }
+  .image-container {
+    margin: 0;
+  }
+  .hero-text {
+    margin: 0;
+  }
+  .btn-wrapper {
+    justify-content: center !important;
+    margin-bottom: 2rem;
+  }
+}
+
+/* CHANGE BORDER RADIUS ON MAIN MOBILE TO 0 */

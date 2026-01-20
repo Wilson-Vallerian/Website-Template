@@ -1,7 +1,8 @@
 import "../styles/body/services.css";
 import SectionHeader from "../components/SectionHeader";
 import services from "../assets/data/services";
-import Carousel from "../components/Carousel";
+import Carousel from "../components/Services/Carousel";
+import InterestedButton from "../components/InterestedButton";
 
 export default function Services() {
   return (
@@ -24,11 +25,10 @@ export default function Services() {
             "Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscingelit quisque faucibus ex sapien vitae pellentesque.",
           ]}
         />
-        <div className="interested-btn-wrapper">
-          <button className="interested-btn" onClick={console.log("CLICKED")}>
-            Click Me
-          </button>
-        </div>
+
+        <InterestedButton onClick={() => console.log("CLICKED")}>
+          Click Me
+        </InterestedButton>
 
         <br />
       </div>

@@ -48,34 +48,6 @@
   text-align: justify;
 }
 
-.interested-btn-wrapper {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  justify-content: center;
-}
-
-.interested-btn {
-  background: var(--bg-primary);
-  border: 0.1rem solid var(--border-color-secondary);
-  border-radius: 1rem;
-  width: 7rem;
-  height: 4rem;
-}
-
-.interested-btn:hover {
-  transform: scale(1.1) translateY(-2px);
-  transition: transform 0.2s ease;
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-secondary);
-}
-
-.interested-btn:active {
-  transform: translateY(0);
-  background: var(--bg-secondary);
-}
-
 @media (max-width: 768px) {
   .services {
     margin-left: 1rem;
@@ -87,7 +59,7 @@
   }
   .carousel-group {
     margin: 0;
-    padding: 0;
+    padding: 1rem;
     gap: 1rem;
   }
 }

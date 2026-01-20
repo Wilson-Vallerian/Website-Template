@@ -4,6 +4,7 @@
   border-top: 0.1rem solid var(--border-color-primary);
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  z-index: 100;
 }
 
 .footer-content {
