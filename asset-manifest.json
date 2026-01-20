@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Website-Template/static/css/main.bf7ec609.css",
+    "main.js": "/Website-Template/static/js/main.5c910aa1.js",
+    "static/media/hero-machine.jpg": "/Website-Template/static/media/hero-machine.70c0e48abf5529c58d58.jpg",
+    "index.html": "/Website-Template/index.html",
+    "main.bf7ec609.css.map": "/Website-Template/static/css/main.bf7ec609.css.map",
+    "main.5c910aa1.js.map": "/Website-Template/static/js/main.5c910aa1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf7ec609.css",
+    "static/js/main.5c910aa1.js"
+  ]
+}
