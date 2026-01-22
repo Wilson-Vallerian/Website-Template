@@ -1,4 +1,4 @@
-const legals = [
+export const legals = [
   {
     title: "Card 1",
     countryCode: "🇮🇩",
@@ -26,24 +26,23 @@ const legals = [
       { title: "Short", val: "Short" },
     ],
   },
-  {
-    title: "Card 4",
-    countryCode: "🇮🇩",
-    informations: [
-      { title: "Medium", val: "Medium Example" },
-      { title: "Medium", val: "Medium Example" },
-      { title: "Medium", val: "Medium Example" },
-    ],
-  },
-  {
-    title: "Card 5",
-    countryCode: "🇮🇩",
-    informations: [
-      { title: "Long", val: "This is a Long sentence" },
-      { title: "Long", val: "This is a Long sentence" },
-      { title: "Long", val: "This is a Long sentence" },
-    ],
-  },
 ];
 
-export default legals;
+export const companyInfo = [
+  {
+    icon: "FaBuilding",
+    label: "Company Name",
+    value: "Template",
+  },
+  { icon: "FaIdCard", label: "Company ID", value: "00000000000" },
+  {
+    icon: "FaFileInvoiceDollar",
+    label: "Document ID",
+    value: "0000-0000-0000-0000",
+  },
+  {
+    icon: "FaIndustry",
+    label: "Location",
+    value: "1 Template St.",
+  },
+];

@@ -42,7 +42,7 @@ export default function About() {
                   key={`about-${i}-${reason.title}`}
                   title={reason.title}
                   text={reason.text}
-                  img={reason.image}
+                  icon={reason.icon}
                 />
               );
             })}

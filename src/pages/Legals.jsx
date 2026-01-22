@@ -1,18 +1,22 @@
 import SectionHeader from "../components/SectionHeader";
-import legals from "../assets/data/legals";
+import { legals, companyInfo } from "../assets/data/legals";
 import "../styles/body/legals.css";
 import IdentificationGroup from "../components/Legals/IdentificationGroup";
+import CompanyProfileCard from "../components/Legals/CompanyProfileCard";
 
 export default function Legals() {
   return (
     <>
-      <SectionHeader
-        title="Legal information"
-        paragraphs={[
-          "Our company is legally registered and operates in accordance with all applicable regulations.",
-          "All legal documents are regularly reviewed and updated.",
-        ]}
-      />
+      <div>
+        <SectionHeader
+          title="Legal information"
+          paragraphs={[
+            "Our company is legally registered and operates in accordance with all applicable regulations.",
+            "All legal documents are regularly reviewed and updated.",
+          ]}
+        />
+        <CompanyProfileCard data={companyInfo} />
+      </div>
 
       <div className="even-section" style={{ padding: "1rem" }}>
         <SectionHeader

@@ -34,7 +34,7 @@
   justify-content: center;
 }
 
-.feature-card__icon {
+.feature-card__icon-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,6 +44,8 @@
   width: 3.5rem;
   height: 3.5rem;
   object-fit: contain;
+  background: var(--bg-primary);
+  box-shadow: var(--shadow-primary), var(--shadow-secondary);
 }
 
 .feature-card fieldset {

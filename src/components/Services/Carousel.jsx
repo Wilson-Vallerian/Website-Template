@@ -6,7 +6,11 @@ export default function Carousel({ data }) {
       <div className="carousel">
         <div className="carousel-group">
           {[...data].map((service, index) => (
-            <FlashCard key={`carousel1-${index}`} title={service.title}>
+            <FlashCard
+              key={`carousel1-${index}`}
+              title={service.title}
+              icon={service.icon}
+            >
               {service.description}
             </FlashCard>
           ))}

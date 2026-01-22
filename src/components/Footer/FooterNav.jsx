@@ -14,6 +14,9 @@ export default function FooterNav() {
           <li>
             <Link to="/about">About Us</Link>
           </li>
+          <li>
+            <Link to="/legals">Legals</Link>
+          </li>
         </ul>
       </div>
     </div>
