@@ -39,6 +39,9 @@ export default function MobileNav() {
           <MobileNavList to="/" onClick={handleClick}>
             Home
           </MobileNavList>
+          <MobileNavList to="/dashboard" onClick={handleClick}>
+            Dashboard
+          </MobileNavList>
           <MobileNavList to="/services" onClick={handleClick}>
             Services
           </MobileNavList>

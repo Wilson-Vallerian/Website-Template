@@ -1,0 +1,73 @@
+.card-exchange-wrapper {
+  margin: 1rem;
+  padding: 1rem;
+  border: solid;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-exchange-wrapper .middle-circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+
+  background: var(--gradient-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-primary);
+  z-index: 10;
+}
+
+.card-exchange {
+  background: var(--color-primary);
+  color: var(--bg-primary);
+  border-radius: 14px;
+  padding: 1.5rem;
+  min-height: 90px;
+  color: var(--bg-secondary);
+
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.card-exchange .icon-wrapper {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--gradient-secondary);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-exchange .icon {
+  font-size: 1rem;
+}
+
+.name-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.name-wrapper .name-title {
+  color: var(--color-trinary);
+  font-size: 0.7rem;
+}
+
+.name-wrapper .name {
+  color: var(--bg-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

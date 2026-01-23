@@ -13,6 +13,7 @@ body {
 :root {
   --color-primary: #1f2933;
   --color-secondary: #2563eb;
+  --color-trinary: #6aa8ff;
 
   --bg-primary: #f8fafc;
   --bg-secondary: #e5e7eb;
@@ -37,6 +38,11 @@ body {
     135deg,
     var(--color-secondary),
     var(--bg-trinary)
+  );
+  --gradient-secondary: radial-gradient(
+    circle,
+    var(--color-trinary),
+    var(--color-secondary)
   );
 }
 
